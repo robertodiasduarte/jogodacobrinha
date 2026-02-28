@@ -1,0 +1,15 @@
+{
+  "name": "jogo-da-cobrinha",
+  "version": "1.0.0",
+  "description": "Jogo da cobrinha em Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["jogo", "cobrinha", "snake"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

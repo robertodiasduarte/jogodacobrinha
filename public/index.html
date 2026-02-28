@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobrinha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da Cobrinha</h1>
+        <div class="game-info">
+            <div class="score">
+                <span>Pontuação: </span>
+                <span id="score">0</span>
+            </div>
+            <div class="high-score">
+                <span>Recorde: </span>
+                <span id="highScore">0</span>
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="controls">
+            <p>Use as setas do teclado para controlar a cobrinha</p>
+            <button id="startBtn">Iniciar Jogo</button>
+            <button id="pauseBtn">Pausar</button>
+        </div>
+        <div class="instructions">
+            <h3>Instruções:</h3>
+            <ul>
+                <li>Use as setas do teclado (↑ ↓ ← →) para mover a cobrinha</li>
+                <li>Coma as maçãs vermelhas para crescer e ganhar pontos</li>
+                <li>Não bata nas paredes ou no seu próprio corpo</li>
+                <li>A velocidade aumenta conforme você marca pontos</li>
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
